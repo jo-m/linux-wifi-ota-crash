@@ -21,8 +21,6 @@ Instructions:
 - Turn on WiFi
 - Crash!
 
-ESP32 code .
-
 ## Attributions and Licenses
 
 Raw WiFi frames are from <https://github.com/PurpleVsGreen/beacown>.
