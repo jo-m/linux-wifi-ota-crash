@@ -1,6 +1,8 @@
 # ESP32 Linux WiFi OTA Crasher
 
-This is a small POC, exploiting CVE-2022-42722 from a ESP32 to crash Linux devices over the air.
+This is a small POC running on an ESP32, exploiting CVE-2022-42722 to crash Linux devices over the air.
+
+![Demo](demo.gif)
 
 Prerequisites:
 - You need a WiFi P2P device set up. This is usually the case if you have NetworkManager running. You can also create one manually, see [here](https://github.com/PurpleVsGreen/beacown/blob/088f476e2ce7b0d14f02c2d3214498f07621a097/README#L118).
@@ -18,7 +20,6 @@ Instructions:
 - Plug the ESP32 to power
 - Turn on WiFi
 - Crash!
-
 
 ESP32 code .
 
